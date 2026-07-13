@@ -5,6 +5,7 @@ public abstract class Entity<TId> : IEquatable<Entity<TId>>
 {
     public TId Id { get; protected set; } = default!;
     
+    protected Entity() {}
     protected Entity(TId id) => Id = id;
 
     public bool Equals(Entity<TId>? other)
