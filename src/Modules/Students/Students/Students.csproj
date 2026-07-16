@@ -13,7 +13,10 @@
     <ItemGroup>
       <Folder Include="Data\" />
       <Folder Include="Students\Dtos\" />
-      <Folder Include="Students\Features\" />
+      <Folder Include="Students\Features\CreateStudent\" />
+      <Folder Include="Students\Features\EnrollStudent\" />
+      <Folder Include="Students\Features\GetStudentById\" />
+      <Folder Include="Students\Features\GetStudents\" />
     </ItemGroup>
 
 </Project>

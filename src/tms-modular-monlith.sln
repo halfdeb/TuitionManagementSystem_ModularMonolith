@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Students", "Students", "{EF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Students", "Modules\Students\Students\Students.csproj", "{B75547C7-6F40-4DED-BF74-3C3BA6693B01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Contracts", "Shared\Shared.Contracts\Shared.Contracts.csproj", "{93E5C968-FDDC-4DCE-A0A9-E3F9062465D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,7 @@ Global
 		{EBC82C53-3B96-4EA6-98DD-A7C15AC29141} = {8F519233-4F62-48AB-A5BA-EF88CD4905AE}
 		{EFC10683-AB2E-4211-83AC-3BDD4C109B37} = {B487866B-12B9-4935-887C-0FB80D8A97EB}
 		{B75547C7-6F40-4DED-BF74-3C3BA6693B01} = {EFC10683-AB2E-4211-83AC-3BDD4C109B37}
+		{93E5C968-FDDC-4DCE-A0A9-E3F9062465D3} = {8F519233-4F62-48AB-A5BA-EF88CD4905AE}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1D41D695-2826-4A59-9509-834A7516F6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -38,5 +41,9 @@ Global
 		{B75547C7-6F40-4DED-BF74-3C3BA6693B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B75547C7-6F40-4DED-BF74-3C3BA6693B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B75547C7-6F40-4DED-BF74-3C3BA6693B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E5C968-FDDC-4DCE-A0A9-E3F9062465D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E5C968-FDDC-4DCE-A0A9-E3F9062465D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E5C968-FDDC-4DCE-A0A9-E3F9062465D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E5C968-FDDC-4DCE-A0A9-E3F9062465D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
